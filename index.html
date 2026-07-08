@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avery Wirthlin | Software Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#home" class="logo">AW</a>
+
+      <button class="menu-button" id="menuButton" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Software Engineering Internship Portfolio</p>
+        <h1>Avery Wirthlin</h1>
+        <p class="hero-text">
+          Computer Science student building practical software projects with JavaScript,
+          HTML, CSS, Java, Spring Boot, REST APIs, and databases. I’m looking for a
+          software engineering internship where I can contribute, learn fast, and keep
+          improving as a developer.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button primary">View Projects</a>
+          <a href="mailto:averywirthlin60@gmail.com" class="button secondary">Email Me</a>
+        </div>
+
+        <div class="hero-links">
+          <a href="https://github.com/averylw05?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/in/avery-l-1a87b43b7/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h2>Current Focus</h2>
+        <p>Building internship-ready full-stack projects.</p>
+
+        <div class="stat-grid">
+          <div>
+            <strong>Frontend</strong>
+            <span>HTML, CSS, JavaScript</span>
+          </div>
+
+          <div>
+            <strong>Backend</strong>
+            <span>Java, Spring Boot, REST APIs</span>
+          </div>
+
+          <div>
+            <strong>Database</strong>
+            <span>H2, localStorage, MySQL practice</span>
+          </div>
+
+          <div>
+            <strong>Goal</strong>
+            <span>Software Engineering Internship</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>CS student learning by building real projects.</h2>
+      </div>
+
+      <div class="about-grid">
+        <p>
+          I’m working toward a career in software engineering and building projects that
+          show practical development skills: user interfaces, CRUD features, backend APIs,
+          persistent data, and clean project structure.
+        </p>
+
+        <p>
+          My current focus is strengthening my JavaScript fundamentals while expanding into
+          backend development with Java and Spring Boot. I’m interested in internships where
+          I can learn from experienced developers and contribute to real software.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technologies used in my projects.</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, responsive layouts, forms, DOM manipulation, Fetch API</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Java, Spring Boot, REST controllers, API endpoints, validation, CRUD operations</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <p>H2 database, localStorage, Spring Data JPA, MySQL practice</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <p>GitHub, VS Code, IntelliJ IDEA, Maven, browser dev tools</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Internship portfolio projects.</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Job Application Tracker</h3>
+            <span class="badge">Frontend App</span>
+          </div>
+
+          <p>
+            A browser-based application for tracking internship applications. Users can add,
+            edit, delete, search, and filter applications while saving data in localStorage.
+          </p>
+
+          <ul class="project-list">
+            <li>Built CRUD features with JavaScript.</li>
+            <li>Used localStorage for persistent browser data.</li>
+            <li>Added search, status filters, and application statistics.</li>
+            <li>Designed a responsive UI for desktop and mobile screens.</li>
+          </ul>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>localStorage</span>
+          </div>
+
+          <a class="project-link" href="https://github.com/averylw05?tab=repositories" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Simple Help Desk</h3>
+            <span class="badge backend">Full-Stack App</span>
+          </div>
+
+          <p>
+            A full-stack help desk ticket system with a Spring Boot REST API and a simple
+            JavaScript frontend. Users can create support tickets, view tickets, update
+            ticket statuses, and delete tickets.
+          </p>
+
+          <ul class="project-list">
+            <li>Built REST API endpoints with Spring Boot.</li>
+            <li>Used Spring Data JPA with an H2 database.</li>
+            <li>Connected frontend to backend using the Fetch API.</li>
+            <li>Implemented ticket statuses: Open, In Progress, and Closed.</li>
+          </ul>
+
+          <div class="tags">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>REST API</span>
+            <span>H2</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a class="project-link" href="https://github.com/averylw05?tab=repositories" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Work experience.</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>NAPA Auto Parts — Stockboy</h3>
+          <p class="timeline-date">2022 — Present</p>
+          <p>
+            Developed consistency, organization, responsibility, and communication skills
+            while supporting inventory and store operations.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Boys & Girls Clubs — Lifeguard</h3>
+          <p class="timeline-date">2021 — 2022</p>
+          <p>
+            Built attention to detail, safety awareness, and calm decision-making in a
+            responsibility-focused role.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect.</h2>
+      </div>
+
+      <p>
+        I’m looking for software engineering internship opportunities where I can contribute,
+        learn quickly, and keep improving as a developer.
+      </p>
+
+      <div class="contact-actions">
+        <a href="mailto:averywirthlin60@gmail.com" class="button primary">averywirthlin60@gmail.com</a>
+        <a href="https://github.com/averylw05?tab=repositories" target="_blank" rel="noopener" class="button secondary">GitHub</a>
+        <a href="https://www.linkedin.com/in/avery-l-1a87b43b7/" target="_blank" rel="noopener" class="button secondary">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Avery Wirthlin. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
