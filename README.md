@@ -14,5 +14,4 @@ Internship portfolio website for Avery Wirthlin.
 - JavaScript
 
 ## How to run
-
-Open `index.html` in your browser.
+(https://averylw05.github.io/portfolio/)
